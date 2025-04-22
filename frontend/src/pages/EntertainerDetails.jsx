@@ -23,7 +23,7 @@ export default function EntertainerDetails() {
 
     try {
       await axios.delete(
-        `hhttps://finalbackendatmp3-acc8behte7fhgscf.eastus-01.azurewebsites.net/api/Entertainers/${id}`
+        `https://finalbackendatmp3-acc8behte7fhgscf.eastus-01.azurewebsites.net/api/Entertainers/${id}`
       );
       alert('Entertainer deleted.');
       navigate('/');
