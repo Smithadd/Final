@@ -11,7 +11,9 @@ export default function EditEntertainer() {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:5075/api/entertainers/${id}`)
+      .get(
+        `https://finalbackendatmp3-acc8behte7fhgscf.eastus-01.azurewebsites.net/api/Entertainers/${id}`
+      )
       .then((res) => setEntertainer(res.data))
       .catch((err) => console.error('Failed to load entertainer:', err));
   }, [id]);
