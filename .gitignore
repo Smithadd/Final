@@ -1,0 +1,31 @@
+# === Frontend ===
+/frontend/node_modules
+/frontend/.pnp
+/frontend/publish
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+/frontend/build
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+
+# === Backend ===
+/backend/bin/
+/backend/obj/
+/backend/publish/
+/backend/Properties/launchSettings.json
+/backend/*.db
+
+# === General ===
+.DS_Store
+.env
+.env.*
+*.user
+*.suo
+*.log
+*.zip
+
+# Visual Studio folder (should always be ignored)
+.vs/
