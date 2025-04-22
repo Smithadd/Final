@@ -1,0 +1,199 @@
+/* ============================= */
+/*        GLOBAL STYLING        */
+/* ============================= */
+
+/* Base Styles and Font Setup */
+body {
+  background-color: #f0f4f8; /* Soft light gray-blue */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container Layout */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* ============================= */
+/*        TYPOGRAPHY            */
+/* ============================= */
+
+h1,
+h2,
+h3,
+h4 {
+  color: #003366; /* Royal Blue */
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* ============================= */
+/*           CARDS              */
+/* ============================= */
+
+.card {
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 51, 102, 0.15);
+  border: none;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto 2rem auto;
+}
+
+/* Center button inside card */
+.card .btn-primary {
+  display: block;
+  margin: 1.5rem auto 0 auto;
+}
+
+/* Center paragraph inside card */
+.card p.lead {
+  text-align: center;
+}
+
+/* ============================= */
+/*           BUTTONS            */
+/* ============================= */
+
+/* Shared Button Styles */
+.btn-info,
+.btn-success,
+.btn-primary {
+  background-color: #003366;
+  border-color: #003366;
+  color: white;
+  padding: 0.5rem 1.25rem;
+  font-weight: 500;
+  border-radius: 6px;
+  text-align: center !important;
+}
+
+/* Hover state for buttons */
+.btn-info:hover,
+.btn-success:hover,
+.btn-primary:hover {
+  background-color: #002244;
+  border-color: #002244;
+  color: white;
+}
+
+/* Special Add Entertainer size */
+.btn-success {
+  font-size: 1rem;
+  padding: 0.6rem 1.5rem;
+}
+
+/* Button alignment wrapper */
+.btn-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+/* ============================= */
+/*             TABLE            */
+/* ============================= */
+
+.table {
+  margin: 0 auto;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #dee2e6;
+}
+
+.table thead th {
+  background-color: #e6ecf3;
+  color: #003366;
+  border: 1px solid #dee2e6;
+  text-align: center;
+}
+
+.table td,
+.table th {
+  vertical-align: middle;
+  text-align: center;
+  padding: 0.75rem;
+  border: 1px solid #dee2e6;
+}
+
+.table-wrapper {
+  margin-top: 2rem;
+}
+
+/* ============================= */
+/*             LINKS            */
+/* ============================= */
+
+a.btn,
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.85;
+}
+
+/* ============================= */
+/*       NAVBAR & CONTROLS      */
+/* ============================= */
+
+/* Navbar Container (Full Width) */
+.navbar-container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Home button styling */
+.home-button {
+  padding: 0.4rem 1rem;
+  font-weight: 500;
+  font-size: 1rem;
+  border-radius: 6px;
+}
+
+.home-button,
+.home-button:visited {
+  color: #003366 !important;
+  border-color: #003366 !important;
+}
+
+.home-button:hover {
+  background-color: #002244 !important;
+  color: white !important;
+}
+
+/* Back button */
+.back-button {
+  background-color: transparent;
+  border: none;
+  font-size: 2rem; /* Thicker arrow */
+  color: #003366;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.back-button:hover {
+  color: #002244;
+}
+
+/* ============================= */
+/*    REMOVE DEFAULT APP.CSS    */
+/* ============================= */
+
+.App,
+.App-header,
+.App-logo,
+.App-link {
+  all: unset;
+}

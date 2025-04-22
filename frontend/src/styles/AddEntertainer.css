@@ -1,0 +1,63 @@
+.add-entertainer-page {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  background-color: #f0f4f8;
+  padding-top: 2rem;
+}
+
+.add-entertainer-card {
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 51, 102, 0.15);
+  padding: 2rem;
+  width: 100%;
+  max-width: 600px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-entertainer-card h2 {
+  text-align: center;
+  color: #003366;
+  margin-bottom: 1.5rem;
+}
+
+.form-label {
+  font-weight: 600;
+  color: #003366;
+}
+
+.form-control {
+  margin-bottom: 1rem;
+}
+
+.btn-submit {
+  background-color: #003366;
+  border-color: #003366;
+  color: white;
+  font-weight: 500;
+  padding: 0.6rem 1.5rem;
+  border-radius: 6px;
+}
+
+.btn-submit:hover {
+  background-color: #002244;
+  border-color: #002244;
+}
+
+.add-entertainer-card .form-label {
+  margin-right: 8px; /* 👈 adds spacing between label and input */
+  min-width: 130px; /* 👈 keeps labels aligned (optional tweak) */
+  display: inline-block;
+  text-align: right;
+}
+
+/* Center the button in the card */
+.add-entertainer-card .form-button-wrapper {
+  text-align: center;
+  margin-top: 1.5rem;
+}
